@@ -29,8 +29,8 @@ day one of learning html + css. website started development.
 ### october 27, 2024 (v0.1)
 homepage, contact, and 404 page at a publishable state, website on the internet using github pages
 
-### october 28, 2024 (v0.11)
-quality of life changes, added tab icon, added README.md, 
+### october 28, 2024 (v0.11 + v0.12)
+quality of life changes, added tab icon, added README.md
 
 ## credits // special thanks
 
