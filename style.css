@@ -1,0 +1,454 @@
+/* this is how to make a comment!! */
+body {
+  background-color: hsl(240 13% 5%);
+  margin: 0;
+  padding: 0;
+}
+
+
+* {
+  box-sizing: border-box;
+  border-style: solid;
+  border-color: white;
+  border-width: 0;
+  overflow-x: hidden;
+}
+
+.hasNav {
+  width: 700px;
+  padding: 12px;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 200px;
+  min-height: calc(100% - 32px);
+}
+
+.hasNav404 {
+  padding: 12px;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: -200px;
+  min-height: calc(100% - 32px);
+}
+
+.bgHasNav{
+  left: 225px;
+}
+
+.sidenavCont {
+  width: 160px;
+  height: 100%;
+  padding: 16px;
+  left: 0;
+  color: #f4f4f4;
+  background-color: #0E0E11;
+  overflow-x: hidden;
+  font-size: 14px;
+  display: inline-block;
+  position: fixed;
+  list-style-type: none;
+}
+
+.sidenavTop {
+  top: 0;
+}
+
+.sidenavLink {
+  color: hsl(220 10% 60%);
+  text-decoration: inherit;
+}
+
+.sidenavLink:hover {
+  color: white;
+}
+
+.sidenavAlreadyOn {
+  color:white;
+}
+
+.sidenavBottom {
+  bottom: 50px;
+  left: -30px;
+  scale: 0.7;
+  position: fixed;
+}
+
+.music404 {
+  bottom: 50px;
+  left: -30px;
+  scale: 0.7;
+  position: fixed;
+}
+
+.contactTable {
+  padding: 1.6;
+  text-indent: 0;
+  border-collapse: collapse;
+}
+
+.prose {
+  color: white;
+  max-width: 65ch;
+}
+
+.prose :where(thead):not(:where([class~=not-prose],[class~=not-prose] *)) {
+  border-bottom-width: 3px;
+  border-bottom-color: white;
+}
+
+.prose :where(table):not(:where([class~=not-prose],[class~=not-prose] *)) {
+  width: 100%;
+  table-layout: auto;
+  text-align: left;
+  padding: 2em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  line-height: 1.7142857;
+  border-spacing: 3px;
+
+}
+.basicWhite {
+  color:white
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: white;
+  background: hsl(220 12% 36%);
+}
+
+::selection {
+  color: white;
+  background: hsl(220 12% 36%);
+}
+
+.indexintro {
+  animation-name: edvinSlide;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: both;
+}
+
+.wip {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: hsl(220 12% 36%);
+  color: white;
+  z-index: 1;
+  padding: 0.5rem;
+
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.lol {
+  animation-name: directAppear;
+  animation-duration: 2s;
+  animation-timing-function: circ-in;
+  animation-delay: 3s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: both;
+}
+
+.sticky {
+  position: sticky;
+}
+
+.edvin {
+  transform: scale(3);
+  color: white;
+  padding: 0.5rem;
+
+  animation-name: edvinIntro;
+  animation-duration: 3s;
+  animation-timing-function: circ-out;
+  animation-delay: 1s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: both;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.homepage {
+  padding: 1rem;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  position: absolute;
+
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.errorText {
+  
+  top: 0;
+  bottom: 0;
+  left: 200px;
+  right: 0;
+  padding: 1rem;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  position: fixed;
+  text-align: center;
+}
+
+.directs {
+  width: fit-content;
+  gap: 2rem;
+
+  animation-name: directAppear;
+  animation-duration: 2s;
+  animation-timing-function: circ-in;
+  animation-delay: 3s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: both;
+}
+
+.directsDesc {
+  width: fit-content;
+  gap: 2rem;
+  text-align: center;
+  color: white;
+
+  animation-name: directAppear;
+  animation-duration: 2s;
+  animation-timing-function: circ-in;
+  animation-delay: 3s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: both;
+}
+
+.directflex {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.gapbruh {
+  gap: 2rem;
+}
+
+.gappoo {
+  gap: 4rem;
+}
+
+.link {
+  color: hsl(220 10% 60%);
+  text-align: center;
+}
+
+.linkColor {
+  color: hsl(220 10% 60%);
+}
+
+.linkNoDeco {
+  text-decoration: inherit;
+}
+
+.link:hover {
+  color: white
+}
+
+.mainbg {
+  position: fixed;
+  z-index: -2;
+  overflow-x: hidden;
+  top: 0px;
+  left: 0px;
+  height: 100vh;
+}
+
+.bgWNav {
+  position: fixed;
+  z-index: -2;
+  overflow-x: hidden;
+  top: 0px;
+  left: 150px;
+  height: 100vh;
+}
+
+.introfadeleft {
+  animation-name: introFadeLeftAnim;
+  animation-duration: 4s;
+  animation-timing-function: quart-in;
+  animation-delay: 3s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: both;
+}
+
+.b1 {
+  position: fixed;
+  z-index: -1;
+  overflow-x: hidden;
+  top: 0px;
+  right: -150px;
+  height: 100vh;
+  opacity: 1;
+}
+
+.b404 {
+  position: fixed;
+  z-index: -1;
+  overflow-x: hidden;
+  top: 0px;
+  right: -125px;
+  height: 100vh;
+  opacity: 1;
+}
+
+.babeintro {
+  animation-name: fromTheRight;
+  animation-duration: 4s;
+  animation-timing-function: quart-in;
+  animation-delay: 3s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: both;
+}
+
+.selectDisable {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+
+/* ANIMATION AREA --------------------------*/
+
+@keyframes fromTheRight {
+  from {
+    transform: translateX(250px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes directAppear {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes introFadeLeftAnim {
+  from {
+    opacity: 0;
+    transform: translateX(-250px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes edvinIntro {
+  from {
+    font-size: 24px;
+  }
+
+  to {
+    font-size: 16px;
+  }
+}
+
+@keyframes edvinSlide {
+  from {
+    top: 250px;
+    text-shadow: 0 0 10px #DDDDFF;
+  }
+
+  to {
+    top: 0px;
+    text-shadow: none;
+  }
+}
+
+/* ANIMATION AREA END --------------------------
+MEDIA QUERIES START */
+
+@media (max-height: 500px) {
+
+  .directflex {
+    flex-direction: row;
+  }
+
+  .edvin {
+    color: red;
+  }
+
+}
+
+@media (max-height: 300px) {
+
+  .homepage {
+    flex-direction: row;
+    padding: 3rem;
+  }
+
+
+  .edvin {
+    color: blue;
+  }
+
+}
+
+@media (max-width: 500px) {
+
+  .b1 {
+    opacity: 0.5;
+  }
+
+}
+
+/* this script changes the color of everytext, i dont want it to actually affect the public website, so i made it a comment
+* {
+  color: red
+}
+
+vvvvvv similar functions, but it only affects the tags vvvvvv
+
+h1 {
+  color: red
+}
+
+h1.heading {
+  color: red
+}
+*/
