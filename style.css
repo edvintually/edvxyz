@@ -408,11 +408,11 @@ MEDIA QUERIES START */
   .directflex {
     flex-direction: row;
   }
-
+/*
   .edvin {
     color: red;
   }
-
+*/
 }
 
 @media (max-height: 300px) {
@@ -422,11 +422,11 @@ MEDIA QUERIES START */
     padding: 3rem;
   }
 
-
+/*
   .edvin {
     color: blue;
   }
-
+*/
 }
 
 @media (max-width: 500px) {
