@@ -9,6 +9,8 @@
 a personal website for edvintually.
 <br>
 this website is actively being worked on, forgive me for any bugs and lack of support for various devices / resolutions.
+<br>
+due to my abitious website idea and my full time job, "v1" might take a while to be finished.
 
 homepage, contacts, and error 404 page completed so far.
 <br>
@@ -23,14 +25,13 @@ miscellaneous would include a gallery of stuff made for the website, credits, an
 
 ## change logs
 
+###### note: quality of life changes and very minor updates not listed
+
 ### october 19, 2024 (v0)
 day one of learning html + css. website started development.
 
 ### october 27, 2024 (v0.1)
 homepage, contact, and 404 page at a publishable state, website on the internet using github pages
-
-### october 28, 2024 (v0.11 + v0.12)
-quality of life changes, added tab icon, added README.md
 
 ## credits // special thanks
 
